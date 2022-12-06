@@ -10,7 +10,7 @@ using namespace std;
 Plansza::Plansza() {
 	int x = 40;
 	for (int i = 0; i < 10; i++) {
-		for (int j = 0; j < 10; j++) {
+		fir (int j = 0; j < 10; j++) {
 			if ((i + j) % 2 != 0 && x > 20) {
 				Pionek p(0, 0, j, i);
 				pTab.push_back(p);
